@@ -1,3 +1,10 @@
+# Ignore .env files containing secrets
+apps/second-brain-offline/.env.example
+apps/second-brain-online/.env.example
+
+# Ignore all .env files in the repo
+*.env
+
 # Ruff
 .ruff_cache
 

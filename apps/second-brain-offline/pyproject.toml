@@ -24,6 +24,8 @@ dependencies = [
     "crawl4ai>=0.3.745",
     "langchain-huggingface>=0.1.2",
     "matplotlib>=3.10.0",
+    "torch==2.2.2",  # ✅ Add this line
+    "numpy<2.0.0",
 ]
 
 [dependency-groups]

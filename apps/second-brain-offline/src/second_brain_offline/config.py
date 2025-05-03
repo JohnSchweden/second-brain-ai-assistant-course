@@ -1,7 +1,10 @@
 from loguru import logger
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+#from datasets import load_dataset
 
+#dataset = load_dataset("pauliusztin/second_brain_course_summarization_task")
+#dataset.save_to_disk("data/second_brain_course_summarization_task")
 
 class Settings(BaseSettings):
     """
